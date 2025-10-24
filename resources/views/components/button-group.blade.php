@@ -5,7 +5,7 @@
     $options = $getOptions();
     $offColor = $getOffColor() ?? 'gray';
     $onColor = $getOnColor() ?? 'primary';
-    $gridDirection = $getGridDirection() ?? 'column';
+    $gridDirection = 'row';
     $icons = $getIcons();
     $iconPosition = $getIconPosition();
     $iconSize = $getIconSize();
